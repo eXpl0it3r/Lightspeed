@@ -340,6 +340,10 @@ void PlayState::update()
 						m_current_state.status = Exit;
 					}
 				}
+				else if(event.key.code == sf::Keyboard::R && m_current_state.status == Game)
+				{
+					m_current_state.status = Restart;
+				}
 			break;
 			default:
 
