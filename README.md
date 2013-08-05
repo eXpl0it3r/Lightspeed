@@ -7,7 +7,7 @@ The goal of the game is to collect as many points as possible by advancing as fa
 Mechanics
 ---------
 The game is completely keyboard based, thus no mouse is required.
-To navigate the menu, you use the **Up** and **Down** arrows keys and to select an entry you use *Enter*.
+To navigate the menu, you use the **Up** and **Down** arrows keys and to select an entry you use **Enter**.
 
 While playing the game you use the **Left** and **Right** key to move the player and you can get an faster movement when holding **Space**.
 

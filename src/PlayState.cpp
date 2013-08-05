@@ -474,6 +474,8 @@ void PlayState::update()
 				m_speed = {350, 500};
 			else if(m_current_state.points < 50000)
 				m_speed = {500, 1000};
+			else if(m_current_state.points < 1000000)
+				m_speed = {1000, 1200};
 
 			if(m_current_state.points < 10000)
 				m_gen_cooldown = sf::seconds(1.0f);
@@ -485,6 +487,8 @@ void PlayState::update()
 				m_gen_cooldown = sf::seconds(0.5f);
 			else if(m_current_state.points < 50000)
 				m_gen_cooldown = sf::seconds(0.2f);
+			else if(m_current_state.points < 1000000)
+				m_gen_cooldown = sf::seconds(0.1f);
 		}
 		break;
 		default:
