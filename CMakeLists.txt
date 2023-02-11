@@ -53,7 +53,7 @@ add_executable(Lightspeed ${SOURCES})
 target_compile_features(Lightspeed PRIVATE cxx_std_17)
 
 # Link SFML
-target_link_libraries(Lightspeed sfml-graphics sfml-audio sfml-main)
+target_link_libraries(Lightspeed sfml-graphics sfml-audio)
 
 # Install executable
 install(TARGETS Lightspeed
