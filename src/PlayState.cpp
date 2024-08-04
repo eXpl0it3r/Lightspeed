@@ -454,19 +454,14 @@ void PlayState::update()
 				}
 			}
 
-			if(beam)
-				m_current_state.beam = true;
-			else
-				m_current_state.beam = false;
+			m_current_state.beam = beam;
 
 			if(m_current_state.beam)
 				m_current_state.points += 3*(m_delta.asMilliseconds()/10);
 			else
 				m_current_state.points += m_delta.asMilliseconds()/10;
 
-			std::stringstream ss;
-			ss << m_current_state.points;
-			m_points.setString(ss.str());
+			m_points.setString(std::to_string(m_current_state.points));
 			//std::cout << m_current_state.points << std::endl;
 
 			// Difficulty

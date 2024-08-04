@@ -11,6 +11,7 @@ Application::Application() :
 {
 	m_icon.loadFromFile("assets/icon.png");
 	m_window.setIcon(48, 48, m_icon.getPixelsPtr());
+	m_window.setFramerateLimit(60);
 }
 
 void Application::run()
