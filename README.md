@@ -1,6 +1,6 @@
 # Lightspeed
 
-Lightspeed is a small skill-based game, which has been created during the first [SFML Game Jam](http://en.sfml-dev.org/forums/index.php?topic=12497.0).
+Lightspeed is a small skill-based game, which has been created during the first [SFML Game Jam](https://en.sfml-dev.org/forums/index.php?topic=12497.0).
 The goal of the game is to collect as many points as possible by advancing as far as possible.
 
 ![image](https://user-images.githubusercontent.com/920861/218281076-f7180c26-a128-4da4-af1e-cf564dd9b795.png)
